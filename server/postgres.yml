@@ -1,0 +1,19 @@
+# Reference https://hub.docker.com/_/postgres
+version: '3.9'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: db
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

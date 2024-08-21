@@ -1,0 +1,58 @@
+# dependencies
+node_modules
+.idea/
+.vscode/
+uploads
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+
+# Node
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+
+# Build
+public/css/main.css
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+
+bower_components
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock
